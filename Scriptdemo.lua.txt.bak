@@ -1,9 +1,11 @@
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/duymanhm6-cyber/wukonghud/refs/heads/main/wukonghud"))()
+
        local Window = MakeWindow({
          Hub = {
-         Title = "TBoy Roblox",
-         Animation = "Youtube: TBoy Roblox"
+         Title = "nagari",
+         Animation = "nhìn cặc"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +23,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Image = "http://www.roblox.com/asset/?id=138718005473077",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -35,13 +37,64 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "nagari",
     Callback = function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+	  l-- this script created at https://lambloxfruitscript.vercel.app/
+getgenv().ScriptTitle = "Nagari"
+getgenv().ScriptSubTitle = "By: quốc hiển"
+getgenv().ScriptImage = "https://i.ibb.co/84t3c47p/1000146411.jpg"
+getgenv().ScriptAuthorName = "Nagari"
+getgenv().ScriptAuthorSubTitle = "Author Info"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
+  end
+  })
+  
+  
+  
+    AddButton(Tab1o, {
+     Name = "wukong",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/duymanhm6-cyber/wukonghud/refs/heads/main/wukonghud"))()
+  end
+  })
+  
+  
+    AddButton(Tab1o, {
+     Name = "king legacy",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/king%20legacy"))()
+  end
+   })
+   
+   
+   
+   AddButton(Tab1o, {
+     Name = "tsuo king",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/king%20legacy"))()
+  end
+  })
+  
+  
+  AddButton(Tab1o, {
+     Name = "quantum hub",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()  
+  end
+  })
+  
+  
+  AddButton(Tab1o, {
+     Name = "trade scami",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/Okhubhere/refs/heads/main/MainBloxFruit.lua"))()
+  end
+  })
+  
+  
+  AddButton(Tab1o, {
+     Name = "realki hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realkidhub/realkid/refs/heads/main/main.lua"))()
   end
   })
